@@ -15,9 +15,8 @@ int main(int _argv, char **_argc) {
     len --;
   }
   for (int i =0; i < len; i++) {
-    printf ("%03d\n", (int) str[i]);
+    printf ("%03d", (int) str[i]);
   }
-  printf("\n");
   printf("013");
   return 0;
 }
